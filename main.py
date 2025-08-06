@@ -21,8 +21,11 @@ def main():
     char_count_dict = get_num_chars(book_text)
     sorted_char_dict = get_sorted_char_dict(char_count_dict)
 
+    print('===============BOOKBOT===============')
+    print('Analysing book found at ' + path_to_book + '...'
+    print('----- Word Count --------------------')
     print(f'Found {get_num_words(book_text)} total words')
-    
+    print('----- Character Count ---------------')
     for i in range(len(sorted_char_dict)):
         char = sorted_char_dict[i]['char']
         num = sorted_char_dict[i]['num']
