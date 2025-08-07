@@ -22,7 +22,7 @@ def main():
     sorted_char_dict = get_sorted_char_dict(char_count_dict)
 
     print('===============BOOKBOT===============')
-    print('Analysing book found at ' + path_to_book + '...'
+    print('Analysing book found at ' + path_to_book + '...')
     print('----- Word Count --------------------')
     print(f'Found {get_num_words(book_text)} total words')
     print('----- Character Count ---------------')
