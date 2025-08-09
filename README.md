@@ -4,7 +4,7 @@ BookBot is my first [Boot.dev](https://www.boot.dev) project!
 
 ## How to use
 
-1. Download all the files from (Github)[https://github.com/delroscol98/bookbot]
+1. Download all the files from [Github](https://github.com/delroscol98/bookbot)
 2. (Assuming you have Python3 installed) From the root file in the terminal type the following command then `<Enter>`
 
     ```python3 main.py path/plain_txt_file.txt```
